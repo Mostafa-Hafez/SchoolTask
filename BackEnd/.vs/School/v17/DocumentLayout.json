@@ -1,0 +1,1181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QuadInsids\\ShoolTask\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\queries\\getclasses\\getcoursesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\queries\\getclasses\\getcoursesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\queries\\getclasses\\getcoursesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\queries\\getclasses\\getcoursesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\queries\\getallclass\\getclassesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\queries\\getallclass\\getclassesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\queries\\getallclass\\getclassesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\queries\\getallclass\\getclassesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\interfaces\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\interfaces\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repositories\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\queries\\getstudents\\getstudentshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\queries\\getstudents\\getstudentshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\createstudent\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\createstudent\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\createstudent\\createstudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\createstudent\\createstudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\deletestudent\\deletestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\deletestudent\\deletestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\deletestudent\\deletestudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\deletestudent\\deletestudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\updatestudent\\updatestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\updatestudent\\updatestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\commans\\updatestudent\\updatestudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\commans\\updatestudent\\updatestudentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\queries\\getstudentbyid\\getstudentbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\queries\\getstudentbyid\\getstudentbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\queries\\getstudentbyid\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\queries\\getstudentbyid\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\students\\queries\\getstudents\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\students\\queries\\getstudents\\getstudentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\createcoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\createcoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\updatecoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\updatecoursevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\updatecourse\\updatecoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\updatecourse\\updatecoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\createcourse\\createcoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\createcourse\\createcoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\updateclassvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\updateclassvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\createclassvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\createclassvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\updatestudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\updatestudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\validator\\createstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\validator\\createstudentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\createclass\\createclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\createclass\\createclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\persistence\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\persistence\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\dtos\\studentdtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\dtos\\studentdtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\maping\\studentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\maping\\studentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\response\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\response\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|d:\\quadinsids\\shooltask\\backend\\school.domain\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\updateclass\\updateclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\updateclass\\updateclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\extentions\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\extentions\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\helpers\\responseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\helpers\\responseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|d:\\quadinsids\\shooltask\\backend\\school.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\dtos\\classdtos\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\dtos\\classdtos\\classdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|d:\\quadinsids\\shooltask\\backend\\school.domain\\entities\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\entities\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\updateclass\\updateclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\updateclass\\updateclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\createclass\\createclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\createclass\\createclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\queries\\getclassbyid\\getcoursebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\queries\\getclassbyid\\getcoursebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\queries\\getclassbyid\\getcoursebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\queries\\getclassbyid\\getcoursebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\updatecourse\\updatecoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\updatecourse\\updatecoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\deletecourse\\deletecoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\deletecourse\\deletecoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\deletecourse\\deletecoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\deletecourse\\deletecoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\courses\\commads\\createcourse\\createcoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\courses\\commads\\createcourse\\createcoursecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\deleteclass\\deleteclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\deleteclass\\deleteclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\commads\\deleteclass\\deleteclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\commads\\deleteclass\\deleteclasscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\queries\\getclassbyid\\getclassbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\queries\\getclassbyid\\getclassbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\class\\queries\\getclassbyid\\getclassbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\class\\queries\\getclassbyid\\getclassbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\maping\\classmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\maping\\classmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\maping\\coursemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\maping\\coursemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|d:\\quadinsids\\shooltask\\backend\\school.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAE8CFF-B29B-4D9E-8BE6-C92D757770AB}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|d:\\quadinsids\\shooltask\\backend\\school.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7C9D1E-DE83-41D3-9B95-5BBB50AEBB2E}|School.Infrastructure\\School.Infrastructure.csproj|solutionrelative:school.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\interfaces\\ischooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\interfaces\\ischooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|d:\\quadinsids\\shooltask\\backend\\school.api\\school.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E2F7F3B-59DA-4347-9DB4-7E9B4F47466D}|School.api\\School.API.csproj|solutionrelative:school.api\\school.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|d:\\quadinsids\\shooltask\\backend\\school.application\\dtos\\studentdtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D74886DB-C004-48E6-BED1-6D1287E25B8C}|School.Application\\School.Application.csproj|solutionrelative:school.application\\dtos\\studentdtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5e929736-0e81-4d52-a78e-546a1649faca}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCoursesQueryHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQueryHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQueryHandler.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:36:25.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "School.Application\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "School.Application\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:50:55.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwC8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:11:37.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "School.api\\Controllers\\ClassesController.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "School.api\\Controllers\\ClassesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAArwCcAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:37:21.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "School.api\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "School.api\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAArwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:02:40.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetCoursesQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQuery.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Queries\\GetClasses\\GetCoursesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:36:07.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetClassesQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetAllClass\\GetClassesQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Queries\\GetAllClass\\GetClassesQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetAllClass\\GetClassesQuery.cs",
+              "RelativeToolTip": "School.Application\\Class\\Queries\\GetAllClass\\GetClassesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:47:17.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetClassesQueryHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetAllClass\\GetClassesQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Queries\\GetAllClass\\GetClassesQueryHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetAllClass\\GetClassesQueryHandler.cs",
+              "RelativeToolTip": "School.Application\\Class\\Queries\\GetAllClass\\GetClassesQueryHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:48:04.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IClassRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IClassRepository.cs",
+              "RelativeDocumentMoniker": "School.Application\\Interfaces\\IClassRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IClassRepository.cs",
+              "RelativeToolTip": "School.Application\\Interfaces\\IClassRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:49:20.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClassRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\ClassRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repositories\\ClassRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\ClassRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repositories\\ClassRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:09:51.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetStudentsHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudents\\GetStudentsHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Queries\\GetStudents\\GetStudentsHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudents\\GetStudentsHandler.cs",
+              "RelativeToolTip": "School.Application\\Students\\Queries\\GetStudents\\GetStudentsHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:55:11.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommand.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:50:52.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateStudentCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\CreateStudent\\CreateStudentCommandHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:51:09.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteStudentCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommand.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:52:25.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteStudentCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\DeleteStudent\\DeleteStudentCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:52:41.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateStudentCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommand.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:06:02.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateStudentCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Students\\Commans\\UpdateStudent\\UpdateStudentCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:51:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetStudentByIdHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdHandler.cs",
+              "RelativeToolTip": "School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:54:02.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetStudentByIdQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdQuery.cs",
+              "RelativeToolTip": "School.Application\\Students\\Queries\\GetStudentById\\GetStudentByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:39:22.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetStudentsQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudents\\GetStudentsQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Students\\Queries\\GetStudents\\GetStudentsQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Students\\Queries\\GetStudents\\GetStudentsQuery.cs",
+              "RelativeToolTip": "School.Application\\Students\\Queries\\GetStudents\\GetStudentsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:54:58.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateCourseValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateCourseValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\CreateCourseValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateCourseValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\CreateCourseValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:28:31.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateCourseValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateCourseValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\UpdateCourseValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateCourseValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\UpdateCourseValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:31:17.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateCourseCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommand.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:33:29.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateClassValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateClassValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\UpdateClassValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateClassValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\UpdateClassValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:26:53.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateClassValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateClassValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\CreateClassValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateClassValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\CreateClassValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:23:01.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\ValidationBehavior.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\ValidationBehavior.cs",
+              "RelativeToolTip": "School.Application\\Validator\\ValidationBehavior.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:28:35.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateCourseCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommand.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommand.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:24:28.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateStudentValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateStudentValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\UpdateStudentValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\UpdateStudentValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\UpdateStudentValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:25:30.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateStudentValidator.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateStudentValidator.cs",
+              "RelativeDocumentMoniker": "School.Application\\Validator\\CreateStudentValidator.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Validator\\CreateStudentValidator.cs",
+              "RelativeToolTip": "School.Application\\Validator\\CreateStudentValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:19:42.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateClassCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\CreateClass\\CreateClassCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\CreateClass\\CreateClassCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\CreateClass\\CreateClassCommand.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\CreateClass\\CreateClassCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:54:35.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "School.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "School.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:14:25.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:06:53.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Persistence\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Persistence\\SchoolDbContext.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Persistence\\SchoolDbContext.cs",
+              "RelativeToolTip": "School.Infrastructure\\Persistence\\SchoolDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:03:57.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "School.api\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "School.api\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwvysAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:30:56.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\StudentDTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "School.Application\\DTOs\\StudentDTOs\\StudentDTO.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\StudentDTOs\\StudentDTO.cs",
+              "RelativeToolTip": "School.Application\\DTOs\\StudentDTOs\\StudentDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:42:29.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentMappingProfile.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\StudentMappingProfile.cs",
+              "RelativeDocumentMoniker": "School.Application\\Maping\\StudentMappingProfile.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\StudentMappingProfile.cs",
+              "RelativeToolTip": "School.Application\\Maping\\StudentMappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:49:06.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "School.api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "School.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:25:59.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "School.Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:13:33.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Response\\PagedResult.cs",
+              "RelativeDocumentMoniker": "School.Application\\Response\\PagedResult.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Response\\PagedResult.cs",
+              "RelativeToolTip": "School.Application\\Response\\PagedResult.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:30:59.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "School.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:52:25.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Roles.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Entities\\Roles.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Roles.cs",
+              "RelativeToolTip": "School.Domain\\Entities\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:33:15.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateClassCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommand.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:56:23.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Extentions\\APIResponse.cs",
+              "RelativeDocumentMoniker": "School.api\\Extentions\\APIResponse.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Extentions\\APIResponse.cs",
+              "RelativeToolTip": "School.api\\Extentions\\APIResponse.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:02:21.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ResponseSchema.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Helpers\\ResponseSchema.cs",
+              "RelativeDocumentMoniker": "School.api\\Helpers\\ResponseSchema.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Helpers\\ResponseSchema.cs",
+              "RelativeToolTip": "School.api\\Helpers\\ResponseSchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:04:18.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Entities\\Student.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "School.Domain\\Entities\\Student.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:52:24.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UpdateClassCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\UpdateClass\\UpdateClassCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:57:02.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\CourseDTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "School.Application\\DTOs\\CourseDTOs\\CourseDTO.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\CourseDTOs\\CourseDTO.cs",
+              "RelativeToolTip": "School.Application\\DTOs\\CourseDTOs\\CourseDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:41:47.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ClassDTO.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\ClassDTOs\\ClassDTO.cs",
+              "RelativeDocumentMoniker": "School.Application\\DTOs\\ClassDTOs\\ClassDTO.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\ClassDTOs\\ClassDTO.cs",
+              "RelativeToolTip": "School.Application\\DTOs\\ClassDTOs\\ClassDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:35:23.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Class.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Entities\\Class.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Class.cs",
+              "RelativeToolTip": "School.Domain\\Entities\\Class.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:38:08.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpdateCourseCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\UpdateCourse\\UpdateCourseCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:33:46.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreateClassCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\CreateClass\\CreateClassCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\CreateClass\\CreateClassCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\CreateClass\\CreateClassCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\CreateClass\\CreateClassCommandHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:55:24.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GetCourseByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQueryHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQueryHandler.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQueryHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:35:34.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetCourseByIdQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQuery.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Queries\\GetClassById\\GetCourseByIdQuery.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:35:12.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DeleteCourseCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:34:40.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DeleteCourseCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommand.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\DeleteCourse\\DeleteCourseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:34:12.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateCourseCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Courses\\Commads\\CreateCourse\\CreateCourseCommandHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA3wBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:24:49.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DeleteClassCommand.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommand.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommand.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommand.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:57:33.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DeleteClassCommandHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommandHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommandHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommandHandler.cs",
+              "RelativeToolTip": "School.Application\\Class\\Commads\\DeleteClass\\DeleteClassCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:58:01.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GetClassByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQueryHandler.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQueryHandler.cs",
+              "RelativeToolTip": "School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:45:46.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetClassByIdQuery.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQuery.cs",
+              "RelativeDocumentMoniker": "School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQuery.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQuery.cs",
+              "RelativeToolTip": "School.Application\\Class\\Queries\\GetClassById\\GetClassByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:40:07.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "School.Application\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "School.Application\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:05:32.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ClassMappingProfile.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\ClassMappingProfile.cs",
+              "RelativeDocumentMoniker": "School.Application\\Maping\\ClassMappingProfile.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\ClassMappingProfile.cs",
+              "RelativeToolTip": "School.Application\\Maping\\ClassMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:38:01.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CourseMappingProfile.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\CourseMappingProfile.cs",
+              "RelativeDocumentMoniker": "School.Application\\Maping\\CourseMappingProfile.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Maping\\CourseMappingProfile.cs",
+              "RelativeToolTip": "School.Application\\Maping\\CourseMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:39:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Entities\\Course.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Domain\\Entities\\Course.cs",
+              "RelativeToolTip": "School.Domain\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T08:38:36.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "School.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "School.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvw4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:26:09.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Program.cs",
+              "RelativeDocumentMoniker": "School.api\\Program.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\Program.cs",
+              "RelativeToolTip": "School.api\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:33:11.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "School.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "School.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:51:44.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ISchoolDbContext.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\ISchoolDbContext.cs",
+              "RelativeDocumentMoniker": "School.Application\\Interfaces\\ISchoolDbContext.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\Interfaces\\ISchoolDbContext.cs",
+              "RelativeToolTip": "School.Application\\Interfaces\\ISchoolDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:04:27.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\appsettings.json",
+              "RelativeDocumentMoniker": "School.api\\appsettings.json",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\appsettings.json",
+              "RelativeToolTip": "School.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T14:53:02.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "School.api\\appsettings.Development.json",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\appsettings.Development.json",
+              "RelativeToolTip": "School.api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T14:59:22.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "School.API.csproj",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\School.API.csproj",
+              "RelativeDocumentMoniker": "School.api\\School.API.csproj",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.api\\School.API.csproj",
+              "RelativeToolTip": "School.api\\School.API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T14:58:34.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AddStudentDTO.cs",
+              "DocumentMoniker": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\StudentDTOs\\AddStudentDTO.cs",
+              "RelativeDocumentMoniker": "School.Application\\DTOs\\StudentDTOs\\AddStudentDTO.cs",
+              "ToolTip": "D:\\QuadInsids\\ShoolTask\\BackEnd\\School.Application\\DTOs\\StudentDTOs\\AddStudentDTO.cs",
+              "RelativeToolTip": "School.Application\\DTOs\\StudentDTOs\\AddStudentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:45:13.25Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

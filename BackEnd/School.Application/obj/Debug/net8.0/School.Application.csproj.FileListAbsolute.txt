@@ -1,0 +1,15 @@
+D:\QuadInsids\ShoolTask\School\School.Application\bin\Debug\net8.0\School.Application.deps.json
+D:\QuadInsids\ShoolTask\School\School.Application\bin\Debug\net8.0\School.Application.dll
+D:\QuadInsids\ShoolTask\School\School.Application\bin\Debug\net8.0\School.Application.pdb
+D:\QuadInsids\ShoolTask\School\School.Application\bin\Debug\net8.0\School.Domain.dll
+D:\QuadInsids\ShoolTask\School\School.Application\bin\Debug\net8.0\School.Domain.pdb
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.csproj.AssemblyReference.cache
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfoInputs.cache
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.AssemblyInfo.cs
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.csproj.CoreCompileInputs.cache
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.A.0288516A.Up2Date
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.dll
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\refint\School.Application.dll
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\School.Application.pdb
+D:\QuadInsids\ShoolTask\School\School.Application\obj\Debug\net8.0\ref\School.Application.dll

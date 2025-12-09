@@ -1,0 +1,11 @@
+D:\QuadInsids\ShoolTask\School\School.Domain\bin\Debug\net8.0\School.Domain.deps.json
+D:\QuadInsids\ShoolTask\School\School.Domain\bin\Debug\net8.0\School.Domain.dll
+D:\QuadInsids\ShoolTask\School\School.Domain\bin\Debug\net8.0\School.Domain.pdb
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.AssemblyInfoInputs.cache
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.AssemblyInfo.cs
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.csproj.CoreCompileInputs.cache
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.dll
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\refint\School.Domain.dll
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\School.Domain.pdb
+D:\QuadInsids\ShoolTask\School\School.Domain\obj\Debug\net8.0\ref\School.Domain.dll
