@@ -9,6 +9,5 @@ namespace School.Application.Students.Commans.UpdateStudent
         public string Name { get; set; }
         public string Email { get; set; }
         public int ClassId { get; set; }
-        public int UserId { get; set; }
     }
 }

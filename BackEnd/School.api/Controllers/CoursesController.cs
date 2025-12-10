@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using School.API.Extentions;
 using School.Application.Courses.Commads.CreateCourse;
@@ -11,7 +12,7 @@ namespace School.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
+    [Authorize(Roles ="Admin")]
     public class CoursesController : ControllerBase
     {
         private readonly IMediator _mediator;

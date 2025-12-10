@@ -3,7 +3,7 @@ using School.Application.Students.Commans.UpdateStudent;
 
 namespace School.Application.Validator
 {
-    internal class UpdateStudentValidator : AbstractValidator<UpdateStudentCommand>
+    public class UpdateStudentValidator : AbstractValidator<UpdateStudentCommand>
     {
         public UpdateStudentValidator()
         {
@@ -16,12 +16,10 @@ namespace School.Application.Validator
             RuleFor(x => x.Email)
                   .NotEmpty().WithMessage("Email is required")
                   .Matches(@"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$")
-                 .WithMessage("Email format is invalid"); 
+                 .WithMessage("Email format is invalid");
 
             RuleFor(x => x.ClassId)
                 .GreaterThan(0).WithMessage("ClassId must be valid");
-            RuleFor(x => x.UserId)
-                .GreaterThan(0).WithMessage("UserId must be valid");
         }
     }
 }

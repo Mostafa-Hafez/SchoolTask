@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using School.API.Extentions;
 using School.Application.Interfaces;
 using School.Domain.Entities;
@@ -17,7 +18,7 @@ namespace School.API.Controllers
             _userRepo = userRepo;
             _jwt = jwt;
         }
-
+        [AllowAnonymous]
         [HttpPost("StudentRegister")]
         public async Task<IActionResult> Studentregister(string username, string password)
         {
@@ -37,6 +38,7 @@ namespace School.API.Controllers
             return Ok("User registered successfully.");
         }
         [HttpPost("AdminRegister")]
+        [Authorize(Roles="Admin")]
         public async Task<IActionResult> Adminregister(string username, string password)
         {
             var existing = await _userRepo.GetByUsernameAsync(username);
@@ -57,6 +59,7 @@ namespace School.API.Controllers
         }
 
         [HttpPost("TeacherRegister")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Teacherregister(string username, string password)
         {
             var existing = await _userRepo.GetByUsernameAsync(username);
@@ -75,6 +78,7 @@ namespace School.API.Controllers
             return this.ToSuccessResult(data: "User registered successfully.");
         }
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(string username, string password)
         {
             var user = await _userRepo.GetByUsernameAsync(username);

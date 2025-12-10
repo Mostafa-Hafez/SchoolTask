@@ -58,7 +58,9 @@ namespace School.Infrastructure.Persistence
                 new User { Id = 3, Username = "eslam12", Password = "12345", RoleId = 3 },
                 new User { Id = 4, Username = "mariam12", Password = "12345", RoleId = 3 },
                 new User { Id = 5, Username = "doaa12", Password = "12345", RoleId = 3 },
-                new User { Id = 6, Username = "zeyad12", Password = "12345", RoleId = 3 }
+                new User { Id = 6, Username = "zeyad12", Password = "12345", RoleId = 3 },
+                new User { Id = 7, Username = "Admin", Password = "12345", RoleId = 1 },
+                new User { Id = 8, Username = "Teacher", Password = "12345", RoleId = 2 }
             );
             modelBuilder.Entity<Class>().HasData(
                 new Class { Id = 1, Name = "Class A", TeacherName = "Mr. Ali" },

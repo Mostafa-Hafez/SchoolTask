@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using School.API.Extentions;
 using School.Application.Class.Queries.GetAllClass;
@@ -8,6 +9,7 @@ using School.Application.Courses.Commads.UpdateCourse;
 
 namespace School.API.Controllers
 {
+    [Authorize(Roles ="Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class ClassesController : ControllerBase

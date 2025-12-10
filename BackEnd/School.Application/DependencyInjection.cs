@@ -13,7 +13,7 @@ namespace School.Application
 
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddAutoMapper(cfg => { }, Assembly.GetExecutingAssembly());
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            services.AddValidatorsFromAssembly(typeof(UpdateStudentValidator).Assembly);
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
