@@ -18,6 +18,6 @@ namespace School.Domain.Entities
         // Navigation
         public  Class? Class { get; set; }
         public User? User { get; set; }
-        public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
+        public ICollection<Enrollment> Enrollments { get; set; } =  new List<Enrollment>();
     }
 }

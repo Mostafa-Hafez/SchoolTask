@@ -53,7 +53,7 @@ namespace School.API.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Student,Admin")]
-        public async Task<IActionResult> Update(int id,UpdateStudentDTO studentsto )
+        public async Task<IActionResult> Update(int id, UpdateStudentDTO studentsto)
         {
 
             var role = User.FindFirst(ClaimTypes.Role)?.Value;
@@ -64,7 +64,7 @@ namespace School.API.Controllers
             {
                 id = userId;
             }
-            UpdateStudentCommand command = new UpdateStudentCommand() { Id=id,Name=studentsto.Name,Email=studentsto.Email,ClassId=studentsto.ClassId};
+            UpdateStudentCommand command = new UpdateStudentCommand() { Id = id, Name = studentsto.Name, Email = studentsto.Email, ClassId = studentsto.ClassId };
             await _mediator.Send(command);
             return this.ToSuccessResult(data: "Student Updated Succesfully");
         }
@@ -74,7 +74,7 @@ namespace School.API.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             await _mediator.Send(new DeleteStudentCommand(id));
-            return this.ToSuccessResult(data: "Deleted Successully", code: System.Net.HttpStatusCode.NoContent);
+            return this.ToSuccessResult(data: "Deleted Successully", code: System.Net.HttpStatusCode.OK);
         }
     }
 }

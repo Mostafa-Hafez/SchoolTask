@@ -64,7 +64,16 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 var app = builder.Build();
 
 app.UseSwagger();
@@ -73,7 +82,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty;
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "School API v1");
 });
-
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

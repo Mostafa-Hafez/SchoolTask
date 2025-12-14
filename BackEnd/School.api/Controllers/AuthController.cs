@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using School.API.DTOs.AuthDTO;
 using School.API.Extentions;
 using School.Application.Interfaces;
 using School.Domain.Entities;
@@ -38,7 +39,7 @@ namespace School.API.Controllers
             return Ok("User registered successfully.");
         }
         [HttpPost("AdminRegister")]
-        [Authorize(Roles="Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Adminregister(string username, string password)
         {
             var existing = await _userRepo.GetByUsernameAsync(username);
@@ -60,7 +61,7 @@ namespace School.API.Controllers
 
         [HttpPost("TeacherRegister")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Teacherregister(string username, string password)
+        public async Task<IActionResult>TeacherRigister(string username, string password)
         {
             var existing = await _userRepo.GetByUsernameAsync(username);
             if (existing != null)
@@ -79,13 +80,13 @@ namespace School.API.Controllers
         }
         [HttpPost("login")]
         [AllowAnonymous]
-        public async Task<IActionResult> Login(string username, string password)
+        public async Task<IActionResult> Login(LoginDTO logindto)
         {
-            var user = await _userRepo.GetByUsernameAsync(username);
+            var user = await _userRepo.GetByUsernameAsync(logindto.username);
             if (user == null)
                 return this.ToErrorResult(code: System.Net.HttpStatusCode.NotFound, errors: new[] { "User not found" });
 
-            if (user.Password != password)
+            if (user.Password != logindto.password)
                 return this.ToErrorResult(code: System.Net.HttpStatusCode.Unauthorized, errors: new[] { "User not found" });
             var token = _jwt.GenerateToken(user);
 

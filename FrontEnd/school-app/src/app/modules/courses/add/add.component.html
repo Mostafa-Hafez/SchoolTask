@@ -1,0 +1,32 @@
+<mat-card style="max-width:500px;margin:auto;">
+  <mat-card-title>Add Course</mat-card-title>
+
+  <form [formGroup]="courseForm" (ngSubmit)="submit()">
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Course Name</mat-label>
+      <input matInput formControlName="name">
+      <mat-error *ngIf="courseForm.get('name')?.invalid">
+        Name is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full">
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="3" formControlName="description"></textarea>
+      <mat-error *ngIf="courseForm.get('description')?.invalid">
+        Description is required
+      </mat-error>
+    </mat-form-field>
+
+    <div style="display:flex;gap:10px;">
+      <button mat-raised-button color="primary" type="submit">
+        Save
+      </button>
+      <button mat-button type="button" (click)="cancel()">
+        Cancel
+      </button>
+    </div>
+
+  </form>
+</mat-card>

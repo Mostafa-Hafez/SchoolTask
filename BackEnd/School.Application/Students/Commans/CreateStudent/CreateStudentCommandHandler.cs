@@ -20,8 +20,7 @@ namespace School.Application.Students.Commans.CreateStudent
             {
                 Name = request.Name,
                 Email = request.Email,
-                ClassId = request.ClassId,
-                UserId = request.UserId
+                ClassId = request.ClassId
             };
             await _studentRepo.AddAsync(entity);
 
