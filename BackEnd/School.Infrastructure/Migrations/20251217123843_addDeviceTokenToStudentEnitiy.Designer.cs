@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using School.Infrastructure.Persistence;
 
@@ -11,9 +12,11 @@ using School.Infrastructure.Persistence;
 namespace School.Infrastructure.Migrations
 {
     [DbContext(typeof(SchoolDbContext))]
-    partial class SchoolDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251217123843_addDeviceTokenToStudentEnitiy")]
+    partial class addDeviceTokenToStudentEnitiy
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -379,14 +382,14 @@ namespace School.Infrastructure.Migrations
                         },
                         new
                         {
-                            Id = 15,
+                            Id = 7,
                             Password = "12345",
                             RoleId = 1,
                             Username = "Admin"
                         },
                         new
                         {
-                            Id = 16,
+                            Id = 8,
                             Password = "12345",
                             RoleId = 2,
                             Username = "Teacher"

@@ -11,11 +11,13 @@ namespace School.Domain.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public  string  Email { get; set; } 
+        public  string  Email { get; set; }
+
+        public string? FirebaseDeviceToken { get; set; }
         public int ClassId { get; set; }
 
         public int? UserId { get; set; }
-        // Navigation
+        
         public  Class? Class { get; set; }
         public User? User { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; } =  new List<Enrollment>();

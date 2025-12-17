@@ -13,11 +13,12 @@ namespace School.API.Controllers
     {
         private readonly IUserRepository _userRepo;
         private readonly IJwtService _jwt;
-
-        public AuthController(IUserRepository userRepo, IJwtService jwt)
+        private readonly IStudentRepository _studentRepository;
+        public AuthController(IUserRepository userRepo, IJwtService jwt, IStudentRepository studentRepository)
         {
             _userRepo = userRepo;
             _jwt = jwt;
+            _studentRepository = studentRepository;
         }
         [AllowAnonymous]
         [HttpPost("StudentRegister")]
@@ -61,7 +62,7 @@ namespace School.API.Controllers
 
         [HttpPost("TeacherRegister")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult>TeacherRigister(string username, string password)
+        public async Task<IActionResult> TeacherRigister(string username, string password)
         {
             var existing = await _userRepo.GetByUsernameAsync(username);
             if (existing != null)
@@ -89,8 +90,20 @@ namespace School.API.Controllers
             if (user.Password != logindto.password)
                 return this.ToErrorResult(code: System.Net.HttpStatusCode.Unauthorized, errors: new[] { "User not found" });
             var token = _jwt.GenerateToken(user);
-
-            return this.ToSuccessResult(data: new { token });
+            IEnumerable<Student> students = await _studentRepository.GetAllAsync();
+            var student = students.FirstOrDefault(z => z.UserId == user.Id);
+            return this.ToSuccessResult(data: new
+            {
+                token,
+                student = new
+                {
+                    userid = user.Id,
+                    StudentId = student.Id,
+                    UserName = user.Username,
+                    Email = student.Email,
+                    Name = student.Name
+                }
+            });
         }
 
 
