@@ -7,7 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
 import { Component } from '@angular/core';
 import { AuthService } from './../../../core/Services/auth.service';
-
+import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -17,7 +17,8 @@ import { AuthService } from './../../../core/Services/auth.service';
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
@@ -25,7 +26,7 @@ import { AuthService } from './../../../core/Services/auth.service';
 export class LoginComponent {
   loginForm: FormGroup;
   error: string | null = null;
-
+   hidePassword = true;
   constructor(private fb: FormBuilder, private router: Router, private authService: AuthService) {
     this.loginForm = this.fb.group({
       username: ['', Validators.required],
@@ -40,7 +41,16 @@ export class LoginComponent {
     this.authService.login(username, password).subscribe({
       next: () => {
         this.error = null;
-        this.router.navigate(['/students']);
+        const user= JSON.parse(localStorage.getItem('user') || '{}');
+        console.log(user);
+        if(user?.role ==='Admin'){
+          this.router.navigate(['/students']);
+        }
+        else if(user?.role ==='Student'){
+          this.router.navigate(['/Dashboard/chat']);
+        } else {
+          this.router.navigate(['/Teacher']);
+        }
         this.loginForm.reset();
       },
       error: () => {

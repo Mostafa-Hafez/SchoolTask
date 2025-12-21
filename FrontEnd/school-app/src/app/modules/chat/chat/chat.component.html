@@ -1,0 +1,52 @@
+<div class="chat-container">
+
+  <!-- Left Sidebar -->
+  <div class="chat-sidebar">
+    <h3>Chats</h3>
+
+    <select class="chat-select" [(ngModel)]="receiverId" (change)="onSelectChat($event)">
+      <option value="" disabled selected>Select a chat</option>
+      <option *ngFor="let user of chatList" [value]="user.contactId">
+        {{ user.contextName }}
+      </option>
+    </select>
+  </div>
+
+  <!-- Chat Window -->
+  <div class="chat-window" *ngIf="receiverId" >
+
+    <!-- Messages -->
+    <div class="messages" id="Chatwindow">
+      <div *ngFor="let msg of messages" class="message" [class.me]="msg.senderId === currentUserId">
+
+        
+        <div class="message-header">
+          <span class="sender-name">
+           {{ getSenderName(msg.senderId) }}
+
+          </span>
+          <span class="message-time">
+            {{ msg.sentAt | date:'dd/MM/yyyy HH:mm' }}
+          </span>
+        </div>
+
+        <div class="message-text">
+          {{ msg.message }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <div class="chat-input">
+      <input [(ngModel)]="messageText" (keyup.enter)="sendMessage()" placeholder="Type your message..." />
+      <button (click)="sendMessage()">Send</button>
+    </div>
+
+  </div>
+
+  <!-- Empty State -->
+  <div class="empty-state" *ngIf="!receiverId">
+    <p>Select a chat to start messaging</p>
+  </div>
+
+</div>

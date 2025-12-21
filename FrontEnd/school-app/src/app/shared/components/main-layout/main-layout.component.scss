@@ -1,0 +1,55 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Sidebar menu top + logout bottom */
+}
+
+.sidenav-toolbar {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mat-nav-list a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.active-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+}
+
+.logout-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logout-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.main-toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.user-name {
+  font-weight: 600;
+}

@@ -1,4 +1,5 @@
-﻿using School.Domain.Entities;
+﻿using School.Application.DTOs.StudentDTOs;
+using School.Domain.Entities;
 
 namespace School.Application.Interfaces
 {
@@ -10,5 +11,7 @@ namespace School.Application.Interfaces
         Task AddAsync(Student student);
         Task UpdateAsync(Student student);
         Task DeleteAsync(Student student);
+        Task<int> GetStudentId(int userid);
+        Task<List<EnrollmentDTO>> GetErollments(int userid);
     }
 }

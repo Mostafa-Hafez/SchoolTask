@@ -90,18 +90,36 @@ namespace School.API.Controllers
             if (user.Password != logindto.password)
                 return this.ToErrorResult(code: System.Net.HttpStatusCode.Unauthorized, errors: new[] { "User not found" });
             var token = _jwt.GenerateToken(user);
-            IEnumerable<Student> students = await _studentRepository.GetAllAsync();
-            var student = students.FirstOrDefault(z => z.UserId == user.Id);
+            if (user.RoleId == (int)Roles.Student)
+            {
+
+                int stuentid = await _studentRepository.GetStudentId(user.Id);
+                var student = await _studentRepository.GetByIdAsync(stuentid);
+                return this.ToSuccessResult(data: new
+                {
+                    token,
+                    user = new
+                    {
+
+                        userid = user.Id,
+                        role = Enum.GetName(typeof(Roles), user.RoleId),
+                        StudentId = student.Id,
+                        UserName = user.Username,
+                        Email = student.Email,
+                        Name = student.Name
+                    }
+                });
+            }
+
             return this.ToSuccessResult(data: new
             {
                 token,
-                student = new
+                user = new
                 {
+
                     userid = user.Id,
-                    StudentId = student.Id,
-                    UserName = user.Username,
-                    Email = student.Email,
-                    Name = student.Name
+                    role = Enum.GetName(typeof(Roles), user.RoleId),
+                    UserName = user.Username
                 }
             });
         }

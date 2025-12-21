@@ -21,7 +21,7 @@ namespace School.API.Controllers
         private readonly IFirebaseNotificationService _firebaseNotificationService;
 
         public ChatController(IChatRepository chatRepo, IHubContext<ChatHub> hubContext,
-            IStudentRepository studentrepo ,IFirebaseNotificationService firebaseNotificationService)
+            IStudentRepository studentrepo, IFirebaseNotificationService firebaseNotificationService)
         {
             _chatRepo = chatRepo;
             _hubContext = hubContext;
@@ -34,9 +34,6 @@ namespace School.API.Controllers
             var senderId = int.Parse(User.FindFirstValue("UId")!);
 
 
-            if (dto.SenderId != senderId)
-                return this.ToErrorResult(code: System.Net.HttpStatusCode.Forbidden,
-                    errors: new[] { "forbidden" });
 
             var message = new ChatMessage
             {
@@ -84,5 +81,11 @@ namespace School.API.Controllers
             return this.ToSuccessResult(data: messages);
         }
 
+        [HttpGet("chat-list")]
+        public async Task<IActionResult> GetChatList()
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+            return this.ToSuccessResult(await _chatRepo.GetContacts(userId));
+        }
     }
 }

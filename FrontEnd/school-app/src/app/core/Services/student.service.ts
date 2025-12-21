@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class StudentsService {
 
   private apiUrl = 'https://localhost:7154/api/Students';
-
+  private apienrollmentsUrl = 'https://localhost:7154/api/Students/MyEnrollments';
   constructor(private http: HttpClient) {}
 
     getStudents(page: number, pageSize: number, name?: string, className?: string): Observable<any> {
@@ -41,5 +41,10 @@ export class StudentsService {
   deleteStudent(id: number): Observable<any> {
 
     return this.http.delete<any>(`${this.apiUrl}/${id}`);
+  }
+
+
+  getStudentEnrollments() {
+    return this.http.get<any>(`${this.apienrollmentsUrl}`);
   }
 }

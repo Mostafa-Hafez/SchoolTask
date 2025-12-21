@@ -1,8 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using School.API.DTOs.AuthDTO;
 using School.API.DTOs.Student;
 using School.API.Extentions;
+using School.Application.Interfaces;
 using School.Application.Students.Commans.CreateStudent;
 using School.Application.Students.Commans.DeleteStudent;
 using School.Application.Students.Commans.UpdateDeviceTokenCommand;
@@ -10,7 +12,6 @@ using School.Application.Students.Commans.UpdateStudent;
 using School.Application.Students.Queries.GetStudentById;
 using School.Application.Students.Queries.GetStudents;
 using System.Security.Claims;
-using System.Security.Cryptography.Xml;
 
 namespace School.API.Controllers
 {
@@ -20,10 +21,12 @@ namespace School.API.Controllers
     public class StudentsController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IStudentRepository _studentrepo;
 
-        public StudentsController(IMediator mediator)
+        public StudentsController(IMediator mediator, IStudentRepository studentRepository)
         {
             _mediator = mediator;
+            _studentrepo = studentRepository;
         }
 
         [HttpPost]
@@ -82,16 +85,29 @@ namespace School.API.Controllers
 
         [Authorize(Roles = "Student")]
         [HttpPost("device-token")]
-        public async Task<IActionResult> SaveDeviceToken([FromBody] string token)
+        public async Task<IActionResult> SaveDeviceToken([FromBody] DeviceTokenDto deviceTokenDto)
         {
             var studentId = int.Parse(User.FindFirstValue("UId")!);
 
-            var result= await _mediator.Send(new UpdateDeviceTokenCommand(studentId,token));
+            var result = await _mediator.Send(new UpdateDeviceTokenCommand(studentId, deviceTokenDto.Token));
             if (result)
             {
                 return this.ToSuccessResult(new { message = "Device token saved successfully" });
             }
             return this.ToErrorResult(errors: new[] { "An Error Occured while Updating" });
+        }
+
+
+        [Authorize(Roles = "Student")]
+        [HttpGet("MyEnrollments")]
+
+        public async Task<IActionResult> MyEnrollments()
+        {
+            var userid = int.Parse(User.FindFirstValue("UId")!);
+
+            var Enrollments = await _studentrepo.GetErollments(userid);
+            return this.ToSuccessResult(Enrollments);
+
         }
     }
 }

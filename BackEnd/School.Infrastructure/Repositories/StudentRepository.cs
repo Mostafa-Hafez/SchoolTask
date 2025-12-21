@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using School.Application.DTOs.StudentDTOs;
 using School.Application.Interfaces;
 using School.Domain.Entities;
 using School.Infrastructure.Persistence;
@@ -59,6 +60,29 @@ namespace School.Infrastructure.Repositories
         {
             _context.Students.Update(student);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<EnrollmentDTO>> GetErollments(int userid)
+        {
+            var studentid = await GetStudentId(userid);
+
+            var enrollments = await _context.
+                Enrollments.Include(z => z.Student).
+                Include(x => x.Course).
+                Where(a => a.StudentId == studentid)
+                .
+                Select(q => new EnrollmentDTO
+                {
+                    CourseName = q.Course.Name,
+                    courseDescription = q.Course.Description
+                }).ToListAsync();
+            return enrollments;
+        }
+
+        public async Task<int> GetStudentId(int userid)
+        {
+            var studentid = await _context.Students.Where(z => z.UserId == userid).Select(c => c.Id).FirstOrDefaultAsync();
+            return studentid;
         }
     }
 }

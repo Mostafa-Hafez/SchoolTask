@@ -24,7 +24,7 @@ namespace School.Infrastructure
             services.AddScoped<IClassRepository, ClassRepository>();
             services.AddScoped<IChatRepository, ChatRepository>();
             services.AddScoped<IFirebaseNotificationService, FirebaseNotificationService>();
-
+                
             return services;
         }
     }

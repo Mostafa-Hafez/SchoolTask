@@ -1,0 +1,25 @@
+<nav class="student-navbar">
+  <div class="nav-brand">
+    <a routerLink="/">School</a>
+  </div>
+
+  <ul class="nav-links">
+    <li>
+      <a href="/Dashboard/chat" routerLink="/Dashboard/chat" routerLinkActive="active">
+        Chats
+      </a>
+    </li>
+    <li>
+        <a href="/Dashboard/myenrollments" routerLink="/Dashboard/myenrollments" >
+        Enrollments
+      </a>
+    </li>
+    <!-- Add more links if needed -->
+  </ul>
+
+  <div class="nav-user">
+    <span>{{ currentUserName }}</span>
+    <button (click)="logout()">Logout</button>
+  </div>
+</nav>
+<router-outlet></router-outlet>

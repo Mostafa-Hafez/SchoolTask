@@ -21,6 +21,7 @@ namespace School.Infrastructure.Services
         {
             var claims = new[]
             {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim("UId", user.Id.ToString()),
                 new Claim("UserName", user.Username.ToString()),
                 new Claim("UserRole", user.RoleId.ToString()),

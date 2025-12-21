@@ -1,22 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using School.Application.DTOs.ChatDTOs;
 using School.Application.Interfaces;
 using School.Domain.ChatEntities;
 using School.Infrastructure.Persistence;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Infrastructure.Repositories
 {
     public class ChatRepository : IChatRepository
     {
         private readonly ChatDbContext _chatcontext;
-            
-        public ChatRepository(ChatDbContext chatcontext )
+        private readonly SchoolDbContext _schoolDb;
+
+        public ChatRepository(ChatDbContext chatcontext, SchoolDbContext schoolDb)
         {
             _chatcontext = chatcontext;
+            _schoolDb = schoolDb;
         }
         public async Task AddMessageAsync(ChatMessage message)
         {
@@ -24,7 +22,20 @@ namespace School.Infrastructure.Repositories
             await _chatcontext.SaveChangesAsync();
         }
 
-        public async Task<List<ChatMessage>> GetConversation(int user1, int user2)
+        public async Task<List<GetContactsDto>> GetContacts(int userid)
+        {
+            var students =
+             await _schoolDb.Students.
+                Where(z => z.UserId != userid).
+                Select(g => new GetContactsDto
+                {
+                    ContactId = g.Id,
+                    ContextName = g.Name
+                }).ToListAsync();
+            return students;
+        }
+
+        public async Task<List<ChatMessage>>    GetConversation(int user1, int user2)
         {
             return await _chatcontext.ChatMessages
             .Where(m =>

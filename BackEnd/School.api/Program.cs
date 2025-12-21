@@ -85,7 +85,7 @@ var credential = CredentialFactory
     .ToGoogleCredential();
 FirebaseApp.Create(new AppOptions
 {
-    Credential =credential
+    Credential = credential
 });
 
 
@@ -123,9 +123,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", policy =>
     {
         policy
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
+        .WithOrigins("http://localhost:4200")
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials();
     });
 });
 var app = builder.Build();

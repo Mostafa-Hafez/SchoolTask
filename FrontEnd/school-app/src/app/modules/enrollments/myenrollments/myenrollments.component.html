@@ -1,0 +1,20 @@
+<div class="enrollments">
+
+  <table *ngIf="enrollments.length > 0">
+    <thead>
+      <tr>
+        <th>Course Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of enrollments">
+        <td>{{ e.courseName }}</td>
+        <td>{{ e.courseDescription }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="enrollments.length === 0">You are not enrolled in any courses yet.</p>
+</div>
+
